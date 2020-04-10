@@ -7,7 +7,7 @@ function searchMovies() {
 	  </div>
 		`);
     $.ajax({
-        url: 'https://smk-smeatdkosgoro2pdg.sch.id/lulusapikgr/lulus.php',
+        url: 'https://smk-smeatdkosgoro2pdg.sch.id/lulusapi/lulus.php',
         type: 'get',
         dataType: 'json',
 		//responseType:'application/json',
