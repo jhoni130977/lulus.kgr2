@@ -26,7 +26,7 @@ function searchMovies() {
 								<table border=0 width=100%>
 									<tr><td>No. Ujian </td><td>:<b> ` + data.no + `</td></tr>
 									<tr><td>Nama Siswa </td><td>:<b> ` + data.nama + `</td></tr>
-									<tr><td>Sekolah Asal </td><td>:<b> ` + data.sekolah + `</td></tr>
+									<tr><td>Jurusan </td><td>:<b> ` + data.sekolah + `</td></tr>
 								</table><br><br><p><p>
 								<table width=100%>
 									<tr><td><h4><center>&nbsp;</h4></td></tr>
@@ -53,7 +53,7 @@ function searchMovies() {
 								<table border=0 width=100%>
 									<tr><td>No. Ujian </td><td>:<b> ` + data.no + `</td></tr>
 									<tr><td>Nama Siswa </td><td>:<b> ` + data.nama + `</td></tr>
-									<tr><td>Sekolah Asal </td><td>:<b> ` + data.sekolah + `</td></tr>
+									<tr><td>Jurusan </td><td>:<b> ` + data.sekolah + `</td></tr>
 								</table><br><br><p><p>
 								<table width=100%>
 									<tr><td><h4><center>&nbsp;</h4></td></tr>
@@ -62,6 +62,7 @@ function searchMovies() {
 									<tr><td><h4><center>Anda Dinyatakan :</h4></td></tr>
 									<tr><td><h3><b><font color=blue><center>` + data.ket + `</h3></td></tr>
 								</table>
+								<a href= https://smk-smeatdkosgoro2pdg.sch.id/lulus20/todaks_modul/csurat.php?id=` + data.no + `&n=` + data.npsn + `&p=` + data.ps + ` target=blank><button class='btn btn-success'>Cetak SKL</button></a>
 							</div>
                     `) }
 					if(data.ket == "TIDAK LULUS") {
@@ -70,7 +71,7 @@ function searchMovies() {
 								<table border=0 width=100%>
 									<tr><td>No. Ujian </td><td>:<b> ` + data.no + `</td></tr>
 									<tr><td>Nama Siswa </td><td>:<b> ` + data.nama + `</td></tr>
-									<tr><td>Sekolah Asal </td><td>:<b> ` + data.sekolah + `</td></tr>
+									<tr><td>Jurusan </td><td>:<b> ` + data.sekolah + `</td></tr>
 								</table><br><br><p><p>
 								<table width=100%>
 									<tr><td><h4><center>&nbsp;</h4></td></tr>
